@@ -1,0 +1,37 @@
+
+
+.texto h2{
+    color:red;
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+     margin: 20px;
+    padding: 10px;
+    border: 2px solid red;
+}
+
+.texto {
+    color:gray;
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+
+}   
+
+#titulo {
+    color:blue;
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid rgb(34, 17, 225);
+} 
+
+ul { 
+    list-style-type: square;
+}

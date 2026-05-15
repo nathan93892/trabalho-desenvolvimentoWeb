@@ -1,37 +1,54 @@
-
-
-.texto h2{
-    color:red;
+/* Título principal */
+#titulo{
+    color: blue;
     font-family: "Parisienne", cursive;
-    font-weight: 400;
-    font-style: normal;
-
-     margin: 20px;
-    padding: 10px;
-    border: 2px solid red;
-}
-
-.texto {
-    color:gray;
-    font-family: "Parisienne", cursive;
-    font-weight: 400;
-    font-style: normal;
     text-align: center;
 
-}   
-
-#titulo {
-    color:blue;
-    font-family: "Parisienne", cursive;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-    
     margin: 20px;
     padding: 15px;
-    border: 2px solid rgb(34, 17, 225);
-} 
 
-ul { 
-    list-style-type: square;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+/* Subtítulo */
+.texto h2{
+    color: red;
+    font-family: "Parisienne", cursive;
+    text-align: center;
+
+    margin: 15px;
+    padding: 10px;
+
+    border-bottom: 2px solid red;
+}
+
+/* Texto principal */
+.texto{
+    color: gray;
+    font-family: "Parisienne", cursive;
+    text-align: center;
+
+    margin: 20px;
+    padding: 15px;
+
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+/* Imagem */
+img{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Links */
+a{
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
 }
